@@ -1,6 +1,6 @@
 1) Run "npm install"
 
-2) Create a cluster on MongoDB Atlas
+2) Create a cluster on MongoDB Atlas [For my cluster the csv is already processed, so if you want to process it again and check the working, you can create your own]
 
 3) Create a .env file in root directory , you can use admin/admin for the username and password, in case you don't want to create new Cluster on mongodb, this is just for documentation and educational purpose. Kindly don't misue the resources free of cost by MongoDB.
 
