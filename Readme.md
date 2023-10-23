@@ -40,3 +40,21 @@ Routes:
     "purchaseOrder": "PO12345"
     }
 
+Scope Coverage in backend - 
+
+1) Went with industry standards of writing code
+2) New orders can be created from the frontend
+3) Dockets information can be viewed in frontend once, the process of csv file is done(first step)
+4) Unique suppliers and unique PO numbers with description can be shown
+5) all blank fields are filled with data, as per the requirement and as explained in video, however using SQL DBs are more better, as we can create relations for data mapping
+6) New Order Data getting saved in DB
+
+Technologies used - 
+1) Express
+2) CsvParser
+
+
+Improvements - 
+
+1) More Clarity on requirements, that what needs to be done
+2) processing csv can be optmized, once exact requirement are clear
