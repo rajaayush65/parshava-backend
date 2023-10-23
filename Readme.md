@@ -2,7 +2,7 @@
 
 2) Create a cluster on MongoDB Atlas
 
-3) Create a .env file in root directory
+3) Create a .env file in root directory , you can use admin/admin for the username and password, in case you don't want to create new Cluster on mongodb, this is just for documentation and educational purpose. Kindly don't misue the resources free of cost by MongoDB.
 
         Add Below ENV Files (Add the username and password from mongodb atlas in below URL)
 
@@ -12,21 +12,31 @@
 4) run "npm start"
 
 Routes:
-1) Process CSV - http://localhost:4000/api/docket/processCsv
+1) [POST]Process CSV - http://localhost:4000/api/docket/processCsv
+   ![image](https://github.com/rajaayush65/parshava-backend/assets/63776877/8409a3dc-ca20-48d7-a402-1d13e4cebc6c)
 
-2) Unique Suppliers - http://localhost:4000/api/supplier/getUniqueSuppliers
 
-3) Get PONumber and Description - http://localhost:4000/api/supplier/getpoorders
+3) [GET]Unique Suppliers - http://localhost:4000/api/supplier/getUniqueSuppliers
+
+   ![image](https://github.com/rajaayush65/parshava-backend/assets/63776877/388f0422-a64f-4643-a836-dcafe317a6c1)
+
+
+4) [POST]Get PONumber and Description - http://localhost:4000/api/supplier/getpoorders
 
 
     Send below payload in body as json
             {
                 "supplierName": "supplier name"
             }
+   
+   ![image](https://github.com/rajaayush65/parshava-backend/assets/63776877/a5b63af1-8d2a-4aca-b142-ac35e809e40a)
 
-4) http://localhost:4000/api/docket/getorders
 
-5) http://localhost:4000/api/docket/createorder
+6) [GET]http://localhost:4000/api/docket/getorders
+
+        ![image](https://github.com/rajaayush65/parshava-backend/assets/63776877/f01cb35f-1f7c-4cac-9e3d-5ee4dac9023d)
+
+7) [POST]http://localhost:4000/api/docket/createorder
 
     Send below payload in body as json
 
@@ -39,6 +49,9 @@ Routes:
     "supplierName": "ABC Supplies",
     "purchaseOrder": "PO12345"
     }
+
+   ![image](https://github.com/rajaayush65/parshava-backend/assets/63776877/4f81942c-3aee-4e2f-9e4c-e95129a4fdbb)
+
 
 Scope Coverage in backend - 
 
